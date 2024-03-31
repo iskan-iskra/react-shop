@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: calc(var(--vh, 1vh) * 100);
+  height: calc(var(--vh, 1vh) * 100);
+  max-height: calc(var(--vh, 1vh) * 100);
+  overflow: hidden;
+}
+
+header {
+  position: sticky !important;
+}
+
+main {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+#root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
